@@ -1,0 +1,59 @@
+.main-page__actions {
+  margin-top: 41px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-page__actions-select {
+  margin-right: 16px;
+  font-family: Pixel;
+  font-size: 48px;
+  padding-left: 16px;
+  cursor: pointer;
+  background-color: #f55421;
+}
+
+.main-page__actions-button {
+  font-size: 48px;
+  font-family: Pixel;
+  padding: 16px;
+  background-color: #f55421;
+  cursor: pointer;
+}
+
+.main-page {
+  margin-bottom: 60px;
+
+  &__fact {
+    display: flex;
+    justify-content: center;
+    animation: fact 1s;
+  }
+
+  @keyframes fact {
+    from {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  &__fact-content {
+    margin-top: 41px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #3f3f3f;
+    max-width: 545px;
+    padding: 41px;
+  }
+
+  &__fact-text {
+    color: #ffffff;
+    font-size: 23px;
+    font-family: "Courier New", Courier, monospace;
+  }
+}

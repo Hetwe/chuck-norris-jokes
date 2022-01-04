@@ -1,0 +1,13 @@
+@import url("fonts.scss");
+
+body {
+  background-color: #000000;
+}
+.wrapper {
+  max-width: 687px;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
